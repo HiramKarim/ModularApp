@@ -7,6 +7,7 @@
 
 import Foundation
 import Core
+import FeatureX
 
 public class AppDummy {
     

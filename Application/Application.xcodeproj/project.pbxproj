@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC4AA27282CC6A100E8C36D /* FeatureX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4AA26282CC6A100E8C36D /* FeatureX.framework */; };
+		1FC4AA28282CC6A100E8C36D /* FeatureX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4AA26282CC6A100E8C36D /* FeatureX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1FD120DA27E831AE00C0F4F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD120D927E831AE00C0F4F5 /* AppDelegate.swift */; };
 		1FD120DC27E831AE00C0F4F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD120DB27E831AE00C0F4F5 /* SceneDelegate.swift */; };
 		1FD120DE27E831AE00C0F4F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD120DD27E831AE00C0F4F5 /* ViewController.swift */; };
@@ -46,6 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1FC4AA28282CC6A100E8C36D /* FeatureX.framework in Embed Frameworks */,
 				1FD121BC27E8465400C0F4F5 /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -54,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FC4AA26282CC6A100E8C36D /* FeatureX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FeatureX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD120D627E831AE00C0F4F5 /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD120D927E831AE00C0F4F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD120DB27E831AE00C0F4F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F29427181E568B46E71E78 /* libPods-Application.a in Frameworks */,
+				1FC4AA27282CC6A100E8C36D /* FeatureX.framework in Frameworks */,
 				1FD121BB27E8465400C0F4F5 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +163,7 @@
 		80008C78A729304A84B98B36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FC4AA26282CC6A100E8C36D /* FeatureX.framework */,
 				1FD121BA27E8465400C0F4F5 /* Core.framework */,
 				DCE1EF878E60FA8F9B196CEA /* libPods-Application.a */,
 			);
